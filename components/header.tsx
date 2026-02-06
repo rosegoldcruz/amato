@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
 export function Header() {
@@ -26,8 +27,15 @@ export function Header() {
     >
       <div className="flex items-center justify-between transition-all duration-300 px-2 pl-5 py-2">
         {/* Logo */}
-        <Link href="#" className={`text-lg font-medium tracking-tight transition-colors duration-300 ${isScrolled ? "text-foreground" : "text-white"}`}>
-          JP DISTRIBUTION
+        <Link href="#" className="flex items-center">
+          <Image
+            src="/jp%20assets/logo.png"
+            alt="JP Distribution"
+            width={120}
+            height={40}
+            className="h-8 w-auto object-contain brightness-0 invert transition-all duration-300"
+            style={{ filter: isScrolled ? 'brightness(0) invert(0)' : 'brightness(0) invert(1)' }}
+          />
         </Link>
 
         {/* Desktop Navigation */}
