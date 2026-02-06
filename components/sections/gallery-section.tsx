@@ -12,14 +12,14 @@ export function GallerySection() {
   const lastScrollRef = useRef(0);
 
   const images = [
-    { src: "/images/bottle-bike.png", alt: "Thermal bottle on bike" },
-    { src: "/images/bottle-lake.png", alt: "Thermal bottle by lake" },
-    { src: "/images/bottle-water.png", alt: "Thermal bottle in water" },
-    { src: "/images/bottle-stream.png", alt: "Thermal bottle by stream" },
-    { src: "/images/bottle-fire.png", alt: "Thermal bottle by fire" },
-    { src: "/images/bottle-snow.png", alt: "Thermal bottle in snow" },
-    { src: "/images/bottle-mountain.png", alt: "Thermal bottle on mountain" },
-    { src: "/images/bottle-canyon.png", alt: "Thermal bottle at canyon" },
+    { src: "/jp%20assets/Italian%20beef.png", alt: "Italian Beef" },
+    { src: "/jp%20assets/Margarita%20pepperoni.png", alt: "Margherita Pepperoni Pizza" },
+    { src: "/jp%20assets/Pasta%20mia!.png", alt: "Pasta Mia" },
+    { src: "/jp%20assets/Shredded%20mozzarella.png", alt: "Shredded Mozzarella" },
+    { src: "/jp%20assets/Sliced%20pepperoni.png", alt: "Sliced Pepperoni" },
+    { src: "/jp%20assets/Southern%20style%20gravy..png", alt: "Southern Style Gravy" },
+    { src: "/jp%20assets/the%20works.png", alt: "The Works" },
+    { src: "/jp%20assets/Tomato%2C%20tomato.png", alt: "Tomato Products" },
   ];
 
   // Calculate section height based on content width

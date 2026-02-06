@@ -66,7 +66,7 @@ export function PhilosophySection() {
               style={{ opacity: titleOpacity }}
             >
               <h2 className="text-[12vw] font-medium leading-[0.95] tracking-tighter text-foreground md:text-[10vw] lg:text-[8vw] text-center px-6">
-                Meet Alpine & Forest.
+                Pasta & Sauces.
               </h2>
             </div>
 
@@ -83,14 +83,14 @@ export function PhilosophySection() {
                 }}
               >
                 <Image
-                  src="/images/product-backpack.png"
-                  alt="V1 Expedition Backpack in alpine setting"
+                  src="/jp%20assets/ANTONIO%20AMATO%20di%20Salerno%20-%20NO.4%20Spaghetti%20-%20pack%20of%205-%20front.png"
+                  alt="Antonio Amato Spaghetti Pack of 5"
                   fill
                   className="object-cover"
                 />
                 <div className="absolute bottom-6 left-6">
                   <span className="backdrop-blur-md px-4 py-2 text-sm font-medium rounded-full bg-[rgba(255,255,255,0.2)] text-white">
-                    Alpine $299
+                    Spaghetti $20.99
                   </span>
                 </div>
               </div>
@@ -106,14 +106,14 @@ export function PhilosophySection() {
                 }}
               >
                 <Image
-                  src="/images/02cdc426-dff4-4dff-b131-1b134c3699b5.png"
-                  alt="V1 Thermal mug in forest setting"
+                  src="/jp%20assets/Chicago%20Style%20Pizza%20Sauce%20With%20Basil%2C%20106oz.png"
+                  alt="Chicago Style Pizza Sauce With Basil"
                   fill
                   className="object-cover"
                 />
                 <div className="absolute bottom-6 left-6">
                   <span className="backdrop-blur-md px-4 py-2 text-sm font-medium rounded-full bg-[rgba(255,255,255,0.2)] text-white">
-                    Forest $199
+                    Pizza Sauce $23.99
                   </span>
                 </div>
               </div>
@@ -126,11 +126,11 @@ export function PhilosophySection() {
       <div className="px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-36 lg:pb-14">
         <div className="text-center">
           <p className="text-xs uppercase tracking-widest text-muted-foreground">
-            First generation
+            Imported from Italy
           </p>
           <p className="mt-8 leading-relaxed text-muted-foreground text-3xl text-center">
-            Alpine & Forest are high-tech outdoor accessories designed for modern adventurers. 
-            Lightweight, durable, and engineered for extreme conditions.
+            Antonio Amato pasta and Chicago Style sauces — authentic Italian ingredients 
+            crafted with tradition, imported directly from Salerno to your kitchen.
           </p>
         </div>
       </div>

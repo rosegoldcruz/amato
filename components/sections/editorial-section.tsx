@@ -1,10 +1,10 @@
 "use client";
 
 const specs = [
-  { label: "Weight", value: "400g" },
-  { label: "Capacity", value: "0.5L - 2L" },
-  { label: "Setup", value: "2 min" },
-  { label: "Packed size", value: "30 x 15 cm" },
+  { label: "Brands", value: "2" },
+  { label: "Products", value: "22+" },
+  { label: "Origin", value: "Italy" },
+  { label: "Since", value: "1912" },
 ];
 
 export function EditorialSection() {
@@ -44,7 +44,7 @@ export function EditorialSection() {
           muted
           playsInline
           className="absolute inset-0 h-full w-full object-cover"
-          src="/videos/bcdafadc-cb7e-4cb7-9cbf-edcbaf2360a5_1.mp4"
+          src="/jp%20assets/Antonio_Amato_Pasta_Ad_Creation.mp4"
         />
       </div>
     </section>

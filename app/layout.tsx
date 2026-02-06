@@ -7,9 +7,8 @@ import './globals.css'
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'VILDMARK | Go Further',
-  description: 'High-performance outdoor gear engineered for the modern explorer. Lightweight, durable, adventure-ready.',
-  generator: 'v0.app',
+  title: 'JP Distribution | Authentic Italian Food, Straight From Salerno',
+  description: 'Authentic Antonio Amato pasta and Chicago Style sauces imported directly from Italy. Premium Italian food products for restaurants and home kitchens.',
   icons: {
     icon: [
       {
