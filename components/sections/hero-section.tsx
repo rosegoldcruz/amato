@@ -137,15 +137,17 @@ export function HeroSection() {
               {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
               <video
                 ref={videoRef}
-                src="/jp%20assets/Packaging_Instructions_Ignored.mp4"
                 autoPlay
                 loop
                 muted
                 playsInline
                 // @ts-ignore
                 webkit-playsinline="true"
+                x5-playsinline="true"
                 preload="auto"
-                className="absolute inset-0 h-full w-full object-cover"
+                controls={false}
+                className="absolute inset-0 h-full w-full object-cover [&::-webkit-media-controls]:hidden [&::-webkit-media-controls-panel]:hidden [&::-webkit-media-controls-play-button]:hidden [&::-webkit-media-controls-start-playback-button]:hidden"
+                src="/jp%20assets/Packaging_Instructions_Ignored.mp4"
               />
               
               {/* Overlay Text - Fades out first */}

@@ -59,8 +59,10 @@ export function EditorialSection() {
           playsInline
           // @ts-ignore
           webkit-playsinline="true"
+          x5-playsinline="true"
           preload="auto"
-          className="absolute inset-0 h-full w-full object-cover"
+          controls={false}
+          className="absolute inset-0 h-full w-full object-cover [&::-webkit-media-controls]:hidden [&::-webkit-media-controls-panel]:hidden [&::-webkit-media-controls-play-button]:hidden [&::-webkit-media-controls-start-playback-button]:hidden"
           src="/jp%20assets/Antonio_Amato_Pasta_Ad_Creation.mp4"
         />
       </div>
