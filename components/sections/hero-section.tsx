@@ -13,20 +13,20 @@ const sideImages = [
     span: 1,
   },
   {
+    src: "/jp%20assets/logo.png",
+    alt: "JP Distribution logo",
+    position: "left",
+    span: 1,
+  },
+  {
     src: "/jp%20assets/cheese.webp",
     alt: "Cheese product",
-    position: "left",
+    position: "right",
     span: 1,
   },
   {
     src: "/jp%20assets/italia.png",
     alt: "Italia",
-    position: "right",
-    span: 1,
-  },
-  {
-    src: "/jp%20assets/logo.png",
-    alt: "JP Distribution logo",
     position: "right",
     span: 1,
   },
